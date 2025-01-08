@@ -12,7 +12,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        self.wfile.write(b"WELCOME TO SERVER TRICKS BY SATISH")
+        self.wfile.write(b"WELCOME TO SERVER TRICKS BY FAROOQ")
 
 def execute_server():
     PORT = 4000
